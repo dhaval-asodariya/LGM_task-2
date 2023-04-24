@@ -1,0 +1,93 @@
+
+*{
+ /* font-family: 'Outfit', sans-serif; */
+
+}
+body {
+  background-image: url("pattern-2.png");
+
+}
+
+h5 {
+  font-family: "Merriweather";
+  font-weight: bold;
+}
+.container{
+  padding-top: 130px;
+}
+.bagCo {
+  background-color: rgba(240, 255, 255, 0.85);
+  /* background-image: url("pattern-2.png"); */
+  /* border: 1px solid yellow; */
+  width: 90%;
+/* border: none; */
+box-shadow: 0 0 0 red !important;
+  transition: transform 0.3s ease;
+}
+.bagCo:hover{
+  box-shadow: 0 0 12px rgb(178, 215, 248) !important;
+  border: none;
+  transform: scale(1.03);
+}
+
+.card-row {
+  display: inline-block;
+  width: 50%;
+  /* border: 1px solid red; */
+}
+
+.row {
+  margin-right: 9.8px !important;
+
+}
+.head{
+  /* background: linear-gradient(#0F2027,#141E30,#243B55); */
+  /* background: linear-gradient(#3C3B3F,#605C3C); */
+  background: linear-gradient(#2C3E50,#4CA1AF);
+  align-items: center;
+  position:fixed;
+  width: 100%;
+  z-index: 11;
+}
+button {
+  font-family: "ubuntu";
+  background-color: rgb(26, 95, 232);
+  color: white;
+  height: 50px;
+  border-radius: 6px;
+  border: none;
+  font-size: 1.2rem;
+  padding: 0px 30px;
+}
+
+button:hover {
+  background-color: rgb(41, 114, 240);
+  box-shadow: 0 0 9px rgba(36, 38, 42, 0.93);
+}
+
+img {
+  width: 18% !important;
+  cursor: pointer;
+  /* border: 1px solid black; */
+}
+
+.text-data {
+  text-align: center;
+  font-family: "ubuntu";
+}
+
+@media (min-width: 360px) and (max-width: 764px) {
+  img {
+    width: 16% !important;
+  }
+  h5 {
+    font-size: 0.9rem;
+  }
+
+  p {
+    font-size: 0.72rem;
+  }
+  .Image {
+    width: 16%;
+  }
+}
